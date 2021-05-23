@@ -1,0 +1,22 @@
+﻿@{
+    //bu şekilde @ ile koda yazdğımızda bu aralıktaki kodlar c# kkodu olarak algılanır 
+    Layout = null;
+            }
+
+
+<h1>Ankaradaki bazı ilçeler</h1>
+<ul>
+    <li>çankaya</li>
+    <li>yenimahalle</li>
+    <li>sincan</li>
+    <li>gölbaşı</li>
+    <li>polatlı</li>
+    <li>keçiören</li>
+</ul>
+<p>
+    şuan ki saat:@DateTime.Now.ToLongTimeString()
+
+</p>
+<p>
+    Ankaradaki toplam ilçe sayısı: <strong>@ViewBag.toplamilceadedi</strong>
+</p>
